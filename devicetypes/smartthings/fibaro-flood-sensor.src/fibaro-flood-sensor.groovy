@@ -438,4 +438,3 @@ def listCurrentParams() {
 
 	delayBetween(cmds, 1200)
 }
-

@@ -1,4 +1,4 @@
- /*
+/*
   *  Copyright 2018 SmartThings
   *
   *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
@@ -138,4 +138,3 @@ def configure() {
 
 	return zigbee.configureReporting(zigbee.POWER_CONFIGURATION_CLUSTER, 0x0021, DataType.UINT8, 30, 21600, 0x10) + refresh()
 }
-
